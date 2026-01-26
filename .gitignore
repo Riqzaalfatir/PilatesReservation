@@ -1,0 +1,13 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+.env.local
+
+# Go
+bin/
+*.exe
+*.log
+
+# OS
+.DS_Store
