@@ -24,7 +24,6 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Header />
         <main>{children}</main>
-        <Script src="https://app.sandbox.midtrans.com/snap/snap.js" data-client-key="SB-Mid-client-53TgJFJ8i32MLqLz" strategy="afterInteractive"/>
         <Footer />
       </body>
     </html>

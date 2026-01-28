@@ -125,8 +125,7 @@ func createPayment(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	midtrans.ServerKey = "SB-Mid-server-s5t5BsB0GCOX4MFCQmaSZatm"
-	midtrans.Environment = midtrans.Sandbox
+
 
 	
 	snapReq := &snap.Request{
